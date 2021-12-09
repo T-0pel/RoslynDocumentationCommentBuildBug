@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentationCommentAnalyzer", "DocumentationCommentAnalyzer\DocumentationCommentAnalyzer\DocumentationCommentAnalyzer.csproj", "{52DA8541-0BA9-4F08-9848-0AA3C199986C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentationCommentAnalyzer.CodeFixes", "DocumentationCommentAnalyzer\DocumentationCommentAnalyzer.CodeFixes\DocumentationCommentAnalyzer.CodeFixes.csproj", "{8FA590A9-E487-4A56-8A6D-B81DF4851C4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentationCommentAnalyzer.Package", "DocumentationCommentAnalyzer\DocumentationCommentAnalyzer.Package\DocumentationCommentAnalyzer.Package.csproj", "{01C7F04C-DF8C-4EA1-B2B8-3DDEC4EF6339}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentationCommentAnalyzer.Test", "DocumentationCommentAnalyzer\DocumentationCommentAnalyzer.Test\DocumentationCommentAnalyzer.Test.csproj", "{BD1E0C50-D7CE-4C46-823A-1A8008BB227D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentationCommentAnalyzer.Vsix", "DocumentationCommentAnalyzer\DocumentationCommentAnalyzer.Vsix\DocumentationCommentAnalyzer.Vsix.csproj", "{6ACDA21A-7723-45B4-AB12-F2ABCB6C101E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52DA8541-0BA9-4F08-9848-0AA3C199986C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52DA8541-0BA9-4F08-9848-0AA3C199986C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52DA8541-0BA9-4F08-9848-0AA3C199986C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52DA8541-0BA9-4F08-9848-0AA3C199986C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FA590A9-E487-4A56-8A6D-B81DF4851C4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FA590A9-E487-4A56-8A6D-B81DF4851C4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FA590A9-E487-4A56-8A6D-B81DF4851C4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FA590A9-E487-4A56-8A6D-B81DF4851C4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01C7F04C-DF8C-4EA1-B2B8-3DDEC4EF6339}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01C7F04C-DF8C-4EA1-B2B8-3DDEC4EF6339}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01C7F04C-DF8C-4EA1-B2B8-3DDEC4EF6339}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01C7F04C-DF8C-4EA1-B2B8-3DDEC4EF6339}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD1E0C50-D7CE-4C46-823A-1A8008BB227D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD1E0C50-D7CE-4C46-823A-1A8008BB227D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD1E0C50-D7CE-4C46-823A-1A8008BB227D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD1E0C50-D7CE-4C46-823A-1A8008BB227D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ACDA21A-7723-45B4-AB12-F2ABCB6C101E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ACDA21A-7723-45B4-AB12-F2ABCB6C101E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ACDA21A-7723-45B4-AB12-F2ABCB6C101E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ACDA21A-7723-45B4-AB12-F2ABCB6C101E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7AD8E97-4DA5-4390-9C50-5ABE71828BEC}
+	EndGlobalSection
+EndGlobal
